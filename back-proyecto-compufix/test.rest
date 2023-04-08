@@ -1,0 +1,52 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/items
+
+
+###
+GET http://localhost:3000/img/pokemon-rojo.jpg
+
+###
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "title": "Silla Gamer",
+    "price": 250.99,
+    "image": "sillagamer.png"
+}
+
+###
+GET http://localhost:3000/items/item
+Content-Type: application/json
+
+{
+    "itemId": "6431ce2875d5e9c716c6590a"
+}
+
+###
+POST http://localhost:3000/create-payment-intent
+Content-Type: application/json
+
+[
+    {
+        "id": "6431ce2875d5e9c716c6590a",
+        "qty": 2
+    }
+]
+
+###
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "items":[
+        {
+            "id": "6431ce2875d5e9c716c6590a",
+            "qty": 2
+        }
+    ]
+}
