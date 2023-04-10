@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6432af003d565c367882824f"
+  },
+  "title": "Astro A50 Inalambrico",
+  "price": 10.99,
+  "image": "audifonos.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6432af0e3d565c3678828251"
+  },
+  "title": "Mouse Reddragon Impact",
+  "price": 20.99,
+  "image": "mouse.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6432af193d565c3678828253"
+  },
+  "title": "Mousepad XPG",
+  "price": 30.99,
+  "image": "mousepad.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6432af263d565c3678828255"
+  },
+  "title": "Silla Gamer",
+  "price": 40.99,
+  "image": "sillagamer.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6432af333d565c3678828257"
+  },
+  "title": "Teclado Mecanico Corsair K70",
+  "price": 50.99,
+  "image": "teclado.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6432af4b3d565c3678828259"
+  },
+  "title": "Ventilador XPG",
+  "price": 60.99,
+  "image": "ventilador.png",
+  "__v": 0
+}]
